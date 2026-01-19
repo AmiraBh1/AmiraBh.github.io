@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amira BENCHOHRA - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Vignette Overlay -->
+    <div class="vignette"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AMIRA<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <p class="greeting">Hello, I am</p>
+                <h1 class="name">Amira BENCHOHRA</h1>
+
+                <div class="hero-summary">
+                    <p>
+                        5-year ICT engineering student at National Higher School of Telecommunications and ICT
+                        (ENSTTIC),
+                        with solid foundations in <strong>systems</strong>, <strong>backend development</strong>, and
+                        <strong>networking</strong>.
+                        Experienced in web-based systems, databases, Docker, and Linux environments.
+                    </p>
+                    <p class="summary-goal">
+                        Seeking a PFE internship or March 2026 internship to strengthen hands-on skills in software,
+                        systems, and data-oriented , Networking engineering.
+                    </p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/AmiraBh1" target="_blank" class="social-icon" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amira-benchohra-609721282/" target="_blank" class="social-icon"
+                        aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#experience" class="btn secondary-btn">View Experience</a>
+                </div>
+            </div>
+
+            <div class="hero-code">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="dot red"></div>
+                        <div class="dot orange"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <div class="window-body">
+                        <div class="code-line"><span class="keyword">const</span> <span class="variable">profile</span>
+                            <span class="operator">=</span> {
+                        </div>
+                        <div class="code-line indent"><span class="property">name</span>: <span class="string">'Amira
+                                Benchohra'</span>,</div>
+                        <div class="code-line indent"><span class="property">education</span>: <span
+                                class="string">'ENSTTIC'</span>,</div>
+                        <div class="code-line indent"><span class="property">focus</span>: [</div>
+                        <div class="code-line double-indent"><span class="string">'Backend (Laravel)'</span>,</div>
+                        <div class="code-line double-indent"><span class="string">'Systems & Networking'</span>,</div>
+                        <div class="code-line double-indent"><span class="string">'DevOps (Docker/Linux)'</span>,</div>
+                        <div class="code-line indent">],</div>
+                        <div class="code-line indent"><span class="property">softSkills</span>: [</div>
+                        <div class="code-line double-indent"><span class="string">'Proactive Learner'</span>,</div>
+                        <div class="code-line double-indent"><span class="string">'Problem Solver'</span></div>
+                        <div class="code-line indent">],</div>
+                        <div class="code-line indent"><span class="property">status</span>: <span class="string">'Open
+                                to internship'</span></div>
+                        <div class="code-line">};</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Glows -->
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="line"></span>
+                <h2 class="section-title">Experience</h2>
+                <span class="line"></span>
+            </div>
+
+            <div class="timeline-wrapper">
+
+                <!-- Experience Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Technical Internship – Networks & Infrastructure</h3>
+                            <span class="company">Djezzy Optimum Telecom, Oran</span>
+                            <span class="date">Jul 2025 — Aug 2025</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Gained exposure to radio, transmission, and IT infrastructures (BTS, microwave, fiber).
+                            </li>
+                            <li>Observed real deployment workflows including link budget analysis, LOS studies, and
+                                network supervision tools.</li>
+                            <li>Developed understanding of how systems, data, and infrastructure interact across
+                                departments.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Internship – Network & Systems Overview</h3>
+                            <span class="company">Algérie Télécom, Oran</span>
+                            <span class="date">Aug 2024 — Sep 2024</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Discovered OSS/BSS systems and their role in service provisioning and customer
+                                management.</li>
+                            <li>Studied multiservice network infrastructure supporting voice, data, and video services.
+                            </li>
+                            <li>Observed network monitoring and troubleshooting workflows used by technical teams.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="line"></span>
+                <h2 class="section-title">Technical Skills</h2>
+                <span class="line"></span>
+            </div>
+
+            <div class="skills-categories">
+
+                <div class="skill-category">
+                    <h3>💻 Backend & Programming</h3>
+                    <div class="skill-tags">
+                        <span>Laravel</span>
+                        <span>REST APIs</span>
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🗄️ Databases</h3>
+                    <div class="skill-tags">
+                        <span>MySQL</span>
+                        <span>MongoDB</span>
+                        <span>Neo4j</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>🖧 Networking & Security </h3>
+                    <div class="skill-tags">
+                        <span>TCP/IP</span>
+                        <span>DNS</span>
+                        <span>DHCP</span>
+                        <span>VLANs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>⚙️ Systems & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Linux</span>
+                        <span>Docker</span>
+                        <span>Git</span>
+                        <span>Vmware</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="line"></span>
+                <h2 class="section-title">Featured Project</h2>
+                <span class="line"></span>
+            </div>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Farm Management System</h3>
+                        <p class="project-desc">
+                            A comprehensive web-based system designed to optimize farm operations, livestock tracking,
+                            and resource management.
+                        </p>
+                        <div class="project-tags">
+                            <span>Laravel</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Real-time resource tracking and livestock health monitoring.</li>
+                                <li>Automated reporting and role-based access control (RBAC).</li>
+                                <li>Implemented efficient CRUD operations and secure validation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certifications -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-half">
+                    <h3 class="subsection-title">🎓 Education</h3>
+                    <div class="edu-item">
+                        <span class="date">2021 — 2026</span>
+                        <h4>Engineering Degree in Networking & Digital Technologies</h4>
+                        <p>National Higher School of Telecoms and ICT (ENSTTIC), Oran</p>
+                    </div>
+                    <div class="edu-item">
+                        <span class="date">2021</span>
+                        <h4>Baccalaureate – Technical Mathematics</h4>
+                        <p>Grade: 16.77</p>
+                    </div>
+                </div>
+
+                <div class="col-half">
+                    <h3 class="subsection-title">📜 Certifications</h3>
+                    <ul class="cert-list">
+                        <li>Certified in Cybersecurity (CC) – <span class="highlight">ISC²</span></li>
+                        <li>Linux Essentials – <span class="highlight">KodeKloud</span></li>
+                        <li>Shell Scripting for Beginners – <span class="highlight">KodeKloud</span></li>
+                        <li>Introduction to Cybersecurity – <span class="highlight">Cisco NetAcad</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="line"></span>
+                <h2 class="section-title">Contact</h2>
+                <span class="line"></span>
+            </div>
+            <div class="contact-card">
+                <p>Feel free to reach out for internship opportunities or collaborations.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <span class="icon">📍</span>
+                        <span>Oran, Algeria</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="icon">✉️</span>
+                        <a href="mailto:amira.benchohra@ensttic.dz" class="contact-link">amira.benchohra@ensttic.dz</a>
+                    </div>
+                </div>
+
+                <div class="social-row mt-4">
+                    <a href="https://www.linkedin.com/in/amira-benchohra-609721282/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/AmiraBh1" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p> 2026 Amira Benchohra.</p>
+    </footer>
+
+    <a href="#" class="scroll-top" id="scrollTop">↑</a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
